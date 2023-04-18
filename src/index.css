@@ -102,6 +102,10 @@ button:active {
 }
 
 @media screen and (max-width: 740px) {
+  h1 {
+    margin-bottom: 3rem;
+  }
+
   .quote-section {
     width: 70%;
     height: 70%;
@@ -119,5 +123,15 @@ button:active {
     width: 140px;
     height: 50px;
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .quote {
+    margin-top: 2rem;
   }
 }
