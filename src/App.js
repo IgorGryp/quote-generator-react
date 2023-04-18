@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
 
 function App() {
-  function getRandomQuote(quotes) {
-    return quotes[Math.floor(Math.random() * quotes.length)];
-  }
 
   const [quotes, setQuotes] = useState([]);
   const [quote, setQuote] = useState(null);
@@ -19,6 +16,10 @@ function App() {
 
   function getNewQuote() {
     setQuote(getRandomQuote(quotes));
+  }
+  
+  function getRandomQuote(quotes) {
+    return quotes[Math.floor(Math.random() * quotes.length)];
   }
 
   return (
