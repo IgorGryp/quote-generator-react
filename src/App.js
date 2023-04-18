@@ -23,9 +23,8 @@ function App() {
 
   return (
     <div className="App">
+      <h1>Quote Generator</h1>
       <section className="quote-section">
-        {/* <h1>Quote Generator</h1> */}
-
         <div className="quote-div">
           <div className="quote">
             <h3>“{quote?.text}“</h3>
