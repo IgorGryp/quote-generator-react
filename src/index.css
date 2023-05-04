@@ -83,6 +83,13 @@ button:active {
   border: 3px solid #ff9c56;
 }
 
+@media screen and (min-width: 1200px) {
+  .quote-section {
+    width: 50%;
+    height: 60%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .quote-section {
     width: 60%;
